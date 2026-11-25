@@ -1,1 +1,5 @@
 nodeLinker: hoisted
+
+# Our own SDK: a new release must be installable here the day it ships.
+minimumReleaseAgeExclude:
+  - "@withub-ai/webchat-react-native"
